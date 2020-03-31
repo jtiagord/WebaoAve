@@ -14,7 +14,7 @@ namespace Webao.Test
             HttpRequest req = new HttpRequest();
             req.BaseUrl("http://ws.audioscrobbler.com/2.0");
             req.AddParameter("format", "json");
-            req.AddParameter("api_key", "************");
+            req.AddParameter("api_key", "****");
             /*
              * Search for band Muse
              */

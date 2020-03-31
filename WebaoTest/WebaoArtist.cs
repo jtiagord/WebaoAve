@@ -6,7 +6,7 @@ namespace Webao.Test
 {
 [BaseUrl("http://ws.audioscrobbler.com/2.0/")]
 [AddParameter("format", "json")]
-[AddParameter("api_key", "***********")]
+[AddParameter("api_key", "26915fe20db044f69f7214479af36dc6")]
 public class WebaoArtist : AbstractAccessObject
 {
     public WebaoArtist(IRequest req) : base(req) {}
